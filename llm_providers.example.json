@@ -1,0 +1,76 @@
+{
+ "providers": [
+  {
+   "name": "opencode-zen-2",
+   "enabled": true,
+   "base_url": "https://opencode.ai/zen/v1",
+   "api_key_env": "ZEN_API_KEY_1",
+   "primary_model": "deepseek-v4-flash-free",
+   "quota": ""
+  },
+  {
+   "name": "opencode-zen-3",
+   "enabled": true,
+   "base_url": "https://opencode.ai/zen/v1",
+   "api_key_env": "ZEN_API_KEY_2",
+   "primary_model": "deepseek-v4-flash-free",
+   "quota": ""
+  },
+  {
+   "name": "sensenova",
+   "enabled": true,
+   "base_url": "https://token.sensenova.cn/v1",
+   "api_key_env": "SENSENOVA_API_KEY",
+   "primary_model": "deepseek-v4-flash",
+   "quota": ""
+  },
+  {
+   "name": "moonshot",
+   "enabled": false,
+   "base_url": "https://api.moonshot.cn/v1",
+   "api_key_env": "MOONSHOT_API_KEY",
+   "primary_model": "kimi-k2.6",
+   "quota": ""
+  },
+  {
+   "name": "openrouter",
+   "enabled": true,
+   "base_url": "https://openrouter.ai/api/v1",
+   "api_key_env": "OPENROUTER_API_KEY",
+   "primary_model": "openrouter/free",
+   "quota": ""
+  },
+  {
+   "name": "deepseek",
+   "enabled": true,
+   "base_url": "https://api.deepseek.com/v1",
+   "api_key_env": "DEEPSEEK_API_KEY",
+   "primary_model": "deepseek-v4-flash",
+   "quota": ""
+  },
+  {
+   "name": "zhipu-bigmodel",
+   "enabled": false,
+   "base_url": "https://open.bigmodel.cn/api/paas/v4",
+   "api_key_env": "ZHIPU_API_KEY",
+   "primary_model": "glm-4.5-flash",
+   "quota": ""
+  },
+  {
+   "name": "modelscope",
+   "enabled": false,
+   "base_url": "https://api-inference.modelscope.cn/v1",
+   "api_key_env": "MODELSCOPE_API_KEY",
+   "primary_model": "qwen-plus",
+   "quota": ""
+  },
+  {
+   "name": "siliconflow",
+   "enabled": false,
+   "base_url": "https://api.siliconflow.cn/v1",
+   "api_key_env": "SILICONFLOW_API_KEY",
+   "primary_model": "deepseek-ai/DeepSeek-V3",
+   "quota": ""
+  }
+ ]
+}
