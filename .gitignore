@@ -1,0 +1,9 @@
+# 生成物/本地数据
+*.db
+*.jsonl
+llm_rank.json
+llm_chain.json
+llm_usage.json
+__pycache__/
+*.pyc
+.env
